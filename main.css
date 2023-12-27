@@ -1,0 +1,91 @@
+/* Proprieta' principali del body */
+
+body {
+    font-family: "Poppins", sans serif;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
+
+.container-menu {
+    width: 1000px;
+    padding: 80px;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.462);
+    margin: auto;
+}
+
+
+/* Componenti dell'header */
+
+header {
+    text-align: center;
+}
+
+#logo {
+    width: 250px;
+}
+
+.slogan {
+    font-size: 30px;
+    font-weight: 500;
+    display: block;
+    color: rgb(34, 223, 28);
+}
+
+.box-bottoni {
+    background-color: rgb(34, 223, 28);
+    padding: 1%;
+}
+
+
+/* Componenti lista monopattini */
+
+main {
+    color: white;
+}
+
+.opzione {
+    margin: 20px 0px;
+}
+
+.nome {
+    font-size: 20px;
+}
+
+.nome > input {
+    margin-right: 7px;
+}
+
+.info {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.freccia:before {
+    content: "\21A6";
+    margin-right: 5px;
+}
+
+/* Barre dello stato della carica */
+
+.barra {
+    height: 30px;
+    border-radius: 5px;
+}
+
+.arancione {
+    background-color: rgb(255, 191, 71);
+    width: 40%;
+}
+
+.verde {
+    background-color: rgb(68, 193, 61);
+    width: 60%;
+}
+
+.rossa {
+    background-color: rgb(166, 59, 57);
+    width: 15%;
+}
